@@ -12,6 +12,7 @@
     "@types/node": "^20.10.2"
   },
   "dependencies": {
-    "@axe-core/playwright": "^4.8.5"
+    "@axe-core/playwright": "^4.8.5",
+    "dotenv": "^16.4.5"
   }
 }

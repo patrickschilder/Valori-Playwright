@@ -2,6 +2,7 @@ import { test as base } from '@playwright/test';
 import { MenuPage } from '../pageObjects/menu-page';
 import { HomePage } from '../pageObjects/home-page';
 import { LoginPage } from '../pageObjects/login-page';
+import 'dotenv/config'
 
 type MyFixtures = {
     menuPage: MenuPage;
